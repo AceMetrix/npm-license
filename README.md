@@ -72,7 +72,8 @@ checker.init({
 
 ```
 
-### Options (Defaults)
+Options (Defaults)
+------------------
 Below are the list of defaults and their descriptions.
 You may pass them either as a module or through the command line (ie. `license-checker --depth=3`)
 
@@ -81,5 +82,6 @@ You may pass them either as a module or through the command line (ie. `license-c
   unknown: false,    // Boolean: generate only a list of unknown licenses
   start: '.',        // String: path to start the dependency checks
   depth: null,       // Number: how deep to recurse through the dependencies
+  include: "all"     // String | Array: recurse through various types of dependencies (ie. include: "devDependencies")
 }
 ```
