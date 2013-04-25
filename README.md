@@ -79,9 +79,9 @@ You may pass them either as a module or through the command line (ie. `license-c
 
 ```javascript
 {
-  unknown: false,    // Boolean: generate only a list of unknown licenses
-  start: '.',        // String: path to start the dependency checks
-  depth: null,       // Number: how deep to recurse through the dependencies
-  include: "all"     // String | Array: recurse through various types of dependencies (ie. include: "devDependencies")
+  unknown: false,          // Boolean: generate only a list of unknown licenses
+  start: '.',              // String: path to start the dependency checks
+  depth: null,             // Number: how deep to recurse through the dependencies
+  include: 'dependencies'  // String | Array | 'all': recurse through various types of dependencies (https://npmjs.org/doc/json.html)
 }
 ```
