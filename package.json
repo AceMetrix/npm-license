@@ -1,8 +1,8 @@
 {
     "name": "license-checker",
     "description": "Check license info for a pacakge",
-    "author": "Dav Glass <davglass@gmail.com>",
-    "version": "0.0.5",
+    "author": "Duncan Wong <baduncaduncan@gmail.com>",
+    "version": "0.1.0",
     "dependencies": {
         "mkdirp": "*",
         "treeify": "*",

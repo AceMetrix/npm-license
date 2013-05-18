@@ -1,6 +1,6 @@
 NPM License Checker
 ===================
-
+(Original credit to https://github.com/davglass/license-checker)
 
 Ever needed to see all the license info for a module and it's dependencies?
 
