@@ -1,4 +1,4 @@
-NPM License Checker
+NPM License
 ===================
 (Original credit to https://github.com/davglass/license-checker)
 
@@ -7,12 +7,12 @@ Ever needed to see all the license info for a module and it's dependencies?
 It's this easy:
 
 ```
-npm -g license-checker
+npm -g npm-license 
 
 mkdir foo
 cd foo
 npm install yui-lint
-license-checker
+npm-license
 ```
 
 You should see something like this:
@@ -62,7 +62,7 @@ Requiring
 
 
 ```javascript
-var checker = require('license-checker');
+var checker = require('npm-license');
 
 checker.init({
     start: '/path/to/start/looking'
@@ -75,7 +75,7 @@ checker.init({
 Options (Defaults)
 ------------------
 Below are the list of defaults and their descriptions.
-You may pass them either as a module or through the command line (ie. `license-checker --depth=3`)
+You may pass them either as a module or through the command line (ie. `npm-license --depth=3`)
 
 ```javascript
 {

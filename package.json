@@ -2,7 +2,7 @@
     "name": "npm-license",
     "description": "Check license info for a pacakge",
     "author": "Duncan Wong <baduncaduncan@gmail.com>",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependencies": {
         "mkdirp": "*",
         "treeify": "*",
@@ -17,13 +17,13 @@
     },
     "keywords": [
         "license",
-    "cli",
-    "checker",
-    "oss"
+        "cli",
+        "checker",
+        "oss"
         ],
     "main": "./lib/index.js",
     "bin": {
-        "license-checker": "./bin/license-checker"
+        "npm-license": "./bin/npm-license"
     },
     "scripts": {
         "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/",
