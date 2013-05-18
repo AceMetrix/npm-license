@@ -1,5 +1,5 @@
 {
-    "name": "license-checker",
+    "name": "npm-license",
     "description": "Check license info for a pacakge",
     "author": "Duncan Wong <baduncaduncan@gmail.com>",
     "version": "0.1.0",
