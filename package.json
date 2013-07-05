@@ -1,6 +1,6 @@
 {
     "name": "npm-license",
-    "description": "Check license info for a pacakge",
+    "description": "Check license info for a module",
     "author": "Duncan Wong <baduncaduncan@gmail.com>",
     "version": "0.1.3",
     "dependencies": {
