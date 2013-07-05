@@ -83,5 +83,25 @@ You may pass them either as a module or through the command line (ie. `npm-licen
   start: '.',              // String: path to start the dependency checks
   depth: null,             // Number: how deep to recurse through the dependencies
   include: 'dependencies'  // String | Array | 'all': recurse through various types of dependencies (https://npmjs.org/doc/json.html)
+  meta: null               // String: path to a metadata json file (see below)
 }
 ```
+
+Passing in additional metadata
+______________________________
+With the `meta` option, you may pass in the path (relative to cwd) to a json file containing a structure similar to:
+
+```javascript
+{
+  "mydep1@0.0.1": "MIT",
+  "mydep2@0.10.1": "WTFPL",
+  "mydep3@0.2.0": {
+    "licenses": ["BSD", "Apache 2.0"]
+  },
+  "mydep4@0.5.10": {
+    "licenses": ["BSD", "Apache 2.0"],
+    "repository": "http://path/to/repo"
+  }
+}
+```
+Whatever you specify in this file overrides the inspection done by npm-license.  This is particularly useful for cases where the license exists for a dependency, but the library wasn't able to pick it up with its usual methods.
