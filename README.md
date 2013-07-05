@@ -81,14 +81,14 @@ You may pass them either as a module or through the command line (ie. `npm-licen
 {
   unknown: false,          // Boolean: generate only a list of unknown licenses
   start: '.',              // String: path to start the dependency checks
-  depth: 1,             // Number: how deep to recurse through the dependencies
-  include: 'dependencies'  // String | Array | 'all': recurse through various types of dependencies (https://npmjs.org/doc/json.html)
+  depth: 1,                // Number: how deep to recurse through the dependencies
+  include: 'dependencies', // String | Array | 'all': recurse through various types of dependencies (https://npmjs.org/doc/json.html)
   meta: null               // String: path to a metadata json file (see below)
 }
 ```
 
 Passing in additional metadata
-______________________________
+------------------------------
 With the `meta` option, you may pass in the path (relative to cwd) to a json file containing a structure similar to:
 
 ```javascript
@@ -99,7 +99,7 @@ With the `meta` option, you may pass in the path (relative to cwd) to a json fil
     "licenses": ["BSD", "Apache 2.0"]
   },
   "mydep4@0.5.10": {
-    "licenses": ["BSD", "Apache 2.0"],
+    "licenses": "GPL",
     "repository": "http://path/to/repo"
   }
 }
