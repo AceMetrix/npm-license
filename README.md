@@ -7,7 +7,7 @@ Ever needed to see all the license info for a module and it's dependencies?
 It's this easy:
 
 ```
-npm -g npm-license 
+npm install -g npm-license 
 
 mkdir foo
 cd foo
