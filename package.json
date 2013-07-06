@@ -2,7 +2,7 @@
     "name": "npm-license",
     "description": "Check license info for a module",
     "author": "Duncan Wong <baduncaduncan@gmail.com>",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "dependencies": {
         "mkdirp": "*",
         "treeify": "*",
@@ -20,7 +20,7 @@
         "cli",
         "checker",
         "oss"
-        ],
+    ],
     "main": "./lib/index.js",
     "bin": {
         "npm-license": "./bin/npm-license"
@@ -33,12 +33,10 @@
     "bugs": {
         "url": "http://github.com/badunk/license-checker/issues"
     },
-    "licenses": [
-        {
-            "type": "BSD",
-            "url": "https://github.com/badunk/license-checker/blob/master/LICENSE"
-        }
-    ],
+    "licenses": [{
+        "type": "BSD",
+        "url": "https://github.com/badunk/license-checker/blob/master/LICENSE"
+    }],
     "repository": {
         "type": "git",
         "url": "http://github.com/badunk/license-checker.git"
