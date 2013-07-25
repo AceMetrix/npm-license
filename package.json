@@ -2,7 +2,7 @@
     "name": "npm-license",
     "description": "Check license info for a module",
     "author": "Duncan Wong <baduncaduncan@gmail.com>",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "dependencies": {
         "mkdirp": "*",
         "treeify": "*",
@@ -35,10 +35,10 @@
     },
     "licenses": [{
         "type": "BSD",
-        "url": "https://github.com/badunk/license-checker/blob/master/LICENSE"
+        "url": "https://github.com/AceMetrix/license-checker/blob/master/LICENSE"
     }],
     "repository": {
         "type": "git",
-        "url": "http://github.com/badunk/license-checker.git"
+        "url": "http://github.com/AceMetrix/license-checker.git"
     }
 }
