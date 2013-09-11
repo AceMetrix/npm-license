@@ -31,14 +31,14 @@
     },
     "preferGlobal": "true",
     "bugs": {
-        "url": "http://github.com/badunk/license-checker/issues"
+        "url": "http://github.com/badunk/npm-license/issues"
     },
     "licenses": [{
         "type": "BSD",
-        "url": "https://github.com/AceMetrix/license-checker/blob/master/LICENSE"
+        "url": "https://github.com/AceMetrix/npm-license/blob/master/LICENSE"
     }],
     "repository": {
         "type": "git",
-        "url": "http://github.com/AceMetrix/license-checker.git"
+        "url": "http://github.com/AceMetrix/npm-license.git"
     }
 }
