@@ -1,38 +1,40 @@
 {
-    "name": "npm-license",
-    "description": "Check license info for a module",
-    "author": "Duncan Wong <baduncaduncan@gmail.com>",
-    "version": "0.2.0",
-    "dependencies": {
-        "mkdirp": "*",
-        "treeify": "*",
-        "nopt": "*",
-        "read-installed": "*",
-        "underscore": "~1.4.4"
-    },
-    "devDependencies": {
-    },
-    "keywords": [
-        "license",
-        "cli",
-        "checker",
-        "oss"
-    ],
-    "main": "./lib/index.js",
-    "bin": {
-        "npm-license": "./bin/npm-license"
-    },
-    "scripts": {},
-    "preferGlobal": "true",
-    "bugs": {
-        "url": "http://github.com/AceMetrix/npm-license/issues"
-    },
-    "licenses": [{
-        "type": "BSD",
-        "url": "https://github.com/AceMetrix/npm-license/blob/master/LICENSE"
-    }],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/AceMetrix/npm-license.git"
+  "name": "npm-license",
+  "description": "Check license info for a module",
+  "author": "Duncan Wong <baduncaduncan@gmail.com>",
+  "version": "0.2.0",
+  "dependencies": {
+    "mkdirp": "*",
+    "treeify": "*",
+    "nopt": "*",
+    "read-installed": "*",
+    "underscore": "~1.4.4",
+    "package-license": "~0.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "license",
+    "cli",
+    "checker",
+    "oss"
+  ],
+  "main": "./lib/index.js",
+  "bin": {
+    "npm-license": "./bin/npm-license"
+  },
+  "scripts": {},
+  "preferGlobal": "true",
+  "bugs": {
+    "url": "http://github.com/AceMetrix/npm-license/issues"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/AceMetrix/npm-license/blob/master/LICENSE"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/AceMetrix/npm-license.git"
+  }
 }
