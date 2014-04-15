@@ -2,7 +2,7 @@
   "name": "npm-license",
   "description": "Check license info for a module",
   "author": "Duncan Wong <baduncaduncan@gmail.com>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": {
     "mkdirp": "*",
     "treeify": "*",
