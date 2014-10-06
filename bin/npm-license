@@ -9,17 +9,24 @@ http://yuilibrary.com/license/
 var checker = require('../lib/index');
 
 var args = require('../lib/args').parse();
+var usage = require('../lib/args').usage();
+var pkginfo = require('pkginfo')(module);
 var mkdirp = require('mkdirp');
 var path = require('path');
 var fs = require('fs');
 
 checker.init(args, function(json) {
-    if (args.json) {
+    if (args.help){
+        console.log(module.exports.name+" "+module.exports.description);
+        console.log(usage);
+    }else if (args.version) {
+        console.log(module.exports.name+"@"+module.exports.version);
+    }else if (args.json) {
         var dir = path.dirname(args.json);
         mkdirp.sync(dir);
         fs.writeFileSync(args.json, JSON.stringify(json, null, 4) + '\n', 'utf8');
         console.log('file written', args.json);
     } else {
-        checker.print(json);
+        checker.print(json, args.export);
     }
 });
