@@ -5,11 +5,13 @@
   "version": "0.2.2",
   "dependencies": {
     "mkdirp": "*",
-    "treeify": "*",
     "nopt": "*",
+    "nopt-usage": "^0.1.0",
+    "package-license": "~0.1.1",
+    "pkginfo": "^0.3.0",
     "read-installed": "*",
-    "underscore": "~1.4.4",
-    "package-license": "~0.1.1"
+    "treeify": "*",
+    "underscore": "~1.4.4"
   },
   "devDependencies": {},
   "keywords": [
